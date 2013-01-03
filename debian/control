@@ -1,0 +1,12 @@
+Source: ros-groovy-openni-launch
+Section: misc
+Priority: extra
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin,ros-groovy-depth-image-proc,ros-groovy-openni-camera,ros-groovy-tf,ros-groovy-image-proc,ros-groovy-nodelet
+Homepage: http://www.ros.org/wiki/openni_launch
+Standards-Version: 3.9.2
+
+Package: ros-groovy-openni-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-tf,ros-groovy-depth-image-proc,ros-groovy-image-proc,ros-groovy-openni-camera,ros-groovy-nodelet
+Description: Launch files to open an OpenNI device and load all nodelets to convert raw depth/RGB/IR streams to depth images, disparity images, and (registered) point clouds.
