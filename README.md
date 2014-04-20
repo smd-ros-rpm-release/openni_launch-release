@@ -1,3 +1,22 @@
+## openni_launch (hydro) - 1.9.5-0
+
+The packages in the `openni_launch` repository were released into the `hydro` distro by running `/usr/bin/bloom-release openni_launch -r hydro -t hydro` on `Sun, 20 Apr 2014 16:05:39 -0000`
+
+The `openni_launch` package was released.
+
+Version of package(s) in repository `openni_launch`:
+- rosdistro version: `1.9.4-0`
+- old version: `1.9.4-0`
+- new version: `1.9.5-0`
+
+Versions of tools used:
+- bloom version: `0.5.4`
+- catkin_pkg version: `0.2.1`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## openni_launch - 1.9.4-0
 
 User `jbinney@jbinney-desktop` released the packages in the `openni_launch` repository by running `/usr/bin/bloom-release openni_launch --track hydro --rosdistro hydro` on `Mon, 26 Aug 2013 01:11:35 -0000`
