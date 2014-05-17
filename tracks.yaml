@@ -16,7 +16,7 @@ tracks:
     release_tag: :{version}
     ros_distro: groovy
     vcs_type: git
-    vcs_uri: https://github.com/ros-perception/openni_launch.git
+    vcs_uri: https://github.com/ros-drivers/openni_launch.git
     version: :{auto}
   hydro:
     actions:
